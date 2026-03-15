@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: "day1-observability"
+    orgId: 1
+    folder: "Day1"
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /etc/grafana/provisioning/dashboards/files
