@@ -30,7 +30,9 @@ public class RequestMdcFilter extends OncePerRequestFilter {
         try {
             filterChain.doFilter(request, response);
         } finally {
-            MDC.clear();
+            MDC.remove("correlationId");
+            MDC.remove("httpMethod");
+            MDC.remove("requestPath");
         }
     }
 }

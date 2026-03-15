@@ -23,6 +23,8 @@ scrape_configs:
             logger_name: logger_name
             correlationId: correlationId
             itemId: itemId
+            traceId: traceId
+            spanId: spanId
       - labels:
           level:
           logger_name:
