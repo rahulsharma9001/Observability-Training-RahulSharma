@@ -237,12 +237,15 @@ Grafana-Custom-Dashboard.png
 Expected query in Explore:
 `{job="day1-foundations-workshop"} | json`
 
-![Grafana Explore - Loki JSON Logs](docs/screenshots/grafana-explore-loki-json-logs.png)
+![Grafana Explore - Loki JSON Logs](Screenshots/LOKI-JSON-LOGS-1.png)
+
+![Grafana Explore - Loki JSON Logs](Screenshots/LOKI-JSON-LOGS-2.png)
+
 
 ### C) Terminal Output - Raw JSON Structured Logs
 Capture output from:
 `tail -f logs/app.log`
 
-![Terminal - Raw JSON Logs](docs/screenshots/terminal-json-logs.png)
+![Terminal - Raw JSON Logs](Screenshots/Terminal-JSON-Logs.png)
 
 ---
