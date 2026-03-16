@@ -367,3 +367,4 @@ When screenshots are ready, keep these embedded references in this README:
 
 ![alt text](day1-foundations-workshop/Screenshots/Day-2-Screenshots/Loki-Log-Trace-Correlation-2.png)
 
+
