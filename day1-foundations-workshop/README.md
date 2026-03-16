@@ -360,8 +360,11 @@ Add these screenshots under `Screenshots/` before final submission:
 
 When screenshots are ready, keep these embedded references in this README:
 
-![Tempo Gantt - Full Trace](Screenshots/Tempo-Gantt-Full-Trace.png)
+![Tempo Gantt - Full Trace](Day-2-Screenshots/Tempo-Gantt-Full-Trace.png)
 
-![Tempo Failed Span - HTTP 500](Screenshots/Tempo-Failed-Span-500.png)
+![Tempo Failed Span - HTTP 500](Day-2-Screenshots/Tempo-Failed-Span-500.png)
 
-![Loki to Tempo Log-Trace Correlation](Screenshots/Loki-Tempo-Log-Trace-Correlation.png)
+![Loki to Tempo Log-Trace Correlation](Day-2-Screenshots/Loki-Log-Trace-Correlation-1.png)
+
+![Loki to Tempo Log-Trace Correlation](Day-2-Screenshots/Loki-Log-Trace-Correlation-2.png)
+
