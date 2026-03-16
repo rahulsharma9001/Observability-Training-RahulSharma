@@ -229,7 +229,7 @@ These tests validate metric increments independent of API outcome.
 ### A) Grafana Dashboard - Custom Counter with Dynamic Tags
 Expected panel should show `status=success` and `status=error`.
 
-![Grafana Dashboard - Custom Counter](Screenshots/Day-1-Screenshots/Grafana-Custom-Dashboard.png)
+![alt text](day1-foundations-workshop/Screenshots/Day-1-Screenshots/Grafana-Custom-Dashboard.png)
 
 Grafana-Custom-Dashboard.png
 
@@ -237,17 +237,16 @@ Grafana-Custom-Dashboard.png
 Expected query in Explore:
 `{job="day1-foundations-workshop"} | json`
 
-![Grafana Explore - Loki JSON Logs](Screenshots/Day-1-Screenshots/LOKI-JSON-LOGS-1.png)
+![alt text](day1-foundations-workshop/Screenshots/Day-1-Screenshots/LOKI-JSON-LOGS-1.png)
 
-![Grafana Explore - Loki JSON Logs](Screenshots/Day-1-Screenshots/LOKI-JSON-LOGS-2.png)
+![alt text](day1-foundations-workshop/Screenshots/Day-1-Screenshots/LOKI-JSON-LOGS-2.png)
 
 
 ### C) Terminal Output - Raw JSON Structured Logs
 Capture output from:
 `tail -f logs/app.log`
 
-![Terminal - Raw JSON Logs](Screenshots/Day-1-Screenshots/Terminal-JSON-Logs.png)
-
+![alt text](day1-foundations-workshop/Screenshots/Day-1-Screenshots/Terminal-JSON-Logs.png)
 ---
 
 ## 11. Day 2 Advanced Workshop: Distributed Tracing (Micrometer + OpenTelemetry)
@@ -360,11 +359,11 @@ Add these screenshots under `Screenshots/` before final submission:
 
 When screenshots are ready, keep these embedded references in this README:
 
-![Tempo Gantt - Full Trace](Screenshots/Day-2-Screenshots/Temp-Gantt-Full-Trace.png)
+![alt text](day1-foundations-workshop/Screenshots/Day-2-Screenshots/Temp-Gantt-Full-Trace.png)
 
-![Tempo Failed Span - HTTP 500](Screenshots/Day-2-Screenshots/Tempo-Failed-Span-500.png)
+![alt text](day1-foundations-workshop/Screenshots/Day-2-Screenshots/Tempo-Failed-Span-500.png)
 
-![Loki to Tempo Log-Trace Correlation](Screenshots/Day-2-Screenshots/Loki-Log-Trace-Correlation-1.png)
+![alt text](day1-foundations-workshop/Screenshots/Day-2-Screenshots/Loki-Log-Trace-Correlation-1.png)
 
-![Loki to Tempo Log-Trace Correlation](Screenshots/Day-2-Screenshots/Loki-Log-Trace-Correlation-2.png)
+![alt text](day1-foundations-workshop/Screenshots/Day-2-Screenshots/Loki-Log-Trace-Correlation-2.png)
 
