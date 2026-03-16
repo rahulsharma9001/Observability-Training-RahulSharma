@@ -357,3 +357,11 @@ Add these screenshots under `Screenshots/` before final submission:
   - Failed (red) span for simulated HTTP 500 with visible exception stack trace
 - `Screenshots/Loki-Tempo-Log-Trace-Correlation.png`
   - Log entry containing `traceId` and matching trace opened in Tempo
+
+When screenshots are ready, keep these embedded references in this README:
+
+![Tempo Gantt - Full Trace](Screenshots/Tempo-Gantt-Full-Trace.png)
+
+![Tempo Failed Span - HTTP 500](Screenshots/Tempo-Failed-Span-500.png)
+
+![Loki to Tempo Log-Trace Correlation](Screenshots/Loki-Tempo-Log-Trace-Correlation.png)
